@@ -1,6 +1,6 @@
 {
   "name": "arr-filter-function",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Fast filter array to have only function values. But also allow you to give iterator function which will be called on each element of the array that is function - much like array.map functionallity. Useful when you want to filter, but also want to map in same time if needed.",
   "repository": "tunnckoCore/arr-filter-function",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
