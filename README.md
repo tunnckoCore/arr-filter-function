@@ -35,7 +35,7 @@ var arr = arrFilterFunction([fn2, 'abc', [1, 2, [fn3, 3]], fn1])
 //=> [fn2, fn1]
 ```
 
-Or you can given `iterator` function which will be called on each element of array.
+Or you can give `iterator` function which will be called on each element of array.
 
 ```js
 var arrFilterFunction = require('arr-filter-function')
@@ -87,7 +87,7 @@ But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) 
 [coveralls-img]: https://img.shields.io/coveralls/tunnckoCore/arr-filter-function.svg
 
 [david-url]: https://david-dm.org/tunnckoCore/arr-filter-function
-[david-img]: https://img.shields.io/david/tunnckoCore/arr-filter-function.svg
+[david-img]: https://img.shields.io/david/dev/tunnckoCore/arr-filter-function.svg
 
 [standard-url]: https://github.com/feross/standard
 [standard-img]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
