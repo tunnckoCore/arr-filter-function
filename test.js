@@ -17,6 +17,22 @@ function fn2 () {}
 function fn3 () {}
 
 test('arr-filter-function:', function () {
+  test('should throw TypeError if not array given', function (done) {
+    function fixture () {
+      arrFilterFunction(123)
+    }
+
+    test.throws(fixture, TypeError)
+    test.throws(fixture, /expect array/)
+    done()
+  })
+  test('should return empty [] array if empty is given', function (done) {
+    var actual = arrFilterFunction([])
+    var expected = []
+
+    test.deepEqual(actual, expected)
+    done()
+  })
   test('should filter array to have only function values', function (done) {
     var arr = [fn2, 'abc', [1, 2, [fn3, 3]], fn1]
     var actual = arrFilterFunction(arr)

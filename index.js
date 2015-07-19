@@ -8,6 +8,13 @@
 'use strict'
 
 module.exports = function arrFilterFunction (arr, iterator) {
+  if (!Array.isArray(arr)) {
+    throw new TypeError('arr-filter-function expect array')
+  }
+  if (!arr.length) {
+    return []
+  }
+
   var self = this
   var res = []
   var len = arr.length
