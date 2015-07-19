@@ -7,6 +7,17 @@
 
 'use strict'
 
+/**
+ * Filter array for function values
+ * and iterate over them if needed.
+ *
+ * @name  arrFilterFunction
+ * @param  {Array} `<arr>`
+ * @param  {Function} `[iterator]`
+ * @return {Array} filtered array, containing only functions
+ * @api public
+ */
+
 module.exports = function arrFilterFunction (arr, iterator) {
   if (!Array.isArray(arr)) {
     throw new TypeError('arr-filter-function expect array')

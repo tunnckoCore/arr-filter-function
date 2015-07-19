@@ -12,8 +12,17 @@ npm test
 ```
 
 
-## Usage
+## API
 > For more use-cases see the [tests](./test.js)
+
+### [arrFilterFunction](./index.js#L21)
+> Filter array for function values and iterate over them if needed.
+
+* `<arr>` **{Array}**    
+* `[iterator]` **{Function}**    
+* `returns` **{Array}**: filtered array, containing only functions  
+
+**Example**
 
 ```js
 var arrFilterFunction = require('arr-filter-function')
