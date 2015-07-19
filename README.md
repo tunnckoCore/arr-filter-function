@@ -52,6 +52,14 @@ var res = arrFilterFunction(arr, function (fn) {
 ```
 
 
+## Related
+- [apidocs-cli](https://github.com/tunnckocore/apidocs-cli): Async CLI for automatically generating API docs from code comments with `helper-apidocs`
+- [arr-filter](https://github.com/jonschlinkert/arr-filter): Faster alternative to javascript's native filter method.
+- [filter-array](https://github.com/jonschlinkert/filter-array): Iterates over the elements in an array, returning an array with only the elements for which the callback returns truthy.
+- [filter-functions](https://github.com/jonschlinkert/filter-functions): Filter an array to have only function values, or an object to have only properties with function values.
+- [npm-related](https://github.com/tunnckoCore/npm-related): Thin wrapper on top of `helper-related` for generating a list of links to the homepages of related NPM projects.
+
+
 ## Contributing
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/tunnckoCore/arr-filter-function/issues/new).  
 But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) guidelines.
